@@ -1,3 +1,0 @@
-ls -lh
-pwd
-lsb_release -a
