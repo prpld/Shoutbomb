@@ -19,7 +19,7 @@ echo Sending files via FTP to ShouthBomb...
 echo.
 echo.
 
-"C:/Program Files (x86)/WinSCP/winscp.com" /command "option batch abort" "option confirm off" "open ShoutBomb" "put C:\Shoutbomb\Holds\*.* /Holds/" "exit"
+"C:/Program Files (x86)/WinSCP/winscp.com" /command "option batch abort" "option confirm off" "open ShoutBomb" "put C:\Shoutbomb\Holds\*_MNT.txt /Holds/" "exit"
 
 REM move the ftp'd files over to archive folder
 
@@ -30,5 +30,5 @@ echo Move files to the Archive folder...
 
 CD C:\
 
-MOVE C:\Shoutbomb\Holds\*.* C:\Shoutbomb\Archive\Holds\
+MOVE C:\Shoutbomb\Holds\*_MNT.txt C:\Shoutbomb\Archive\Holds\
 
