@@ -32,3 +32,7 @@ CD C:\
 
 MOVE C:\Shoutbomb\Holds\*_MDT.txt C:\Shoutbomb\Archive\Holds\
 
+REM Close the FTP connection to the Shoutbomb server
+
+quit
+

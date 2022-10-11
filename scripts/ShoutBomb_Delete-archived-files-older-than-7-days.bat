@@ -9,4 +9,7 @@ echo.
 forfiles /p "C:\Shoutbomb\Archive\Holds" /s /m *_MDT.txt /D -7 /C "cmd /c del /F /Q @path"
 forfiles /p "C:\Shoutbomb\Archive\Renewals" /s /m *_MDT.txt /D -7 /C "cmd /c del /F /Q @path"
 forfiles /p "C:\Shoutbomb\Archive\Overdue" /s /m *_MDT.txt /D -7 /C "cmd /c del /F /Q @path"
-pause
+
+REM Close the FTP connection to the Shoutbomb server
+
+quit

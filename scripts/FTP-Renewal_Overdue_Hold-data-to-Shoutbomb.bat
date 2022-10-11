@@ -32,3 +32,7 @@ CD C:\
 MOVE C:\Shoutbomb\Holds\*_MDT.txt C:\Shoutbomb\Archive\Holds\
 MOVE C:\Shoutbomb\Renewals\*_MDT.txt C:\Shoutbomb\Archive\Renewals\
 MOVE C:\Shoutbomb\Overdue\*_MDT.txt C:\Shoutbomb\Archive\Overdue\
+
+REM Close the FTP connection to the Shoutbomb server
+
+quit
