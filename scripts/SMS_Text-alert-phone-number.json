@@ -1,0 +1,17 @@
+﻿{
+  "target": {
+    "record": {
+      "type": "patron"
+    },
+    "field": {
+      "tag": "o"
+    }
+  },
+  "expr": {
+    "op": "not_equal",
+    "operands": [
+      "",
+      ""
+    ]
+  }
+}
