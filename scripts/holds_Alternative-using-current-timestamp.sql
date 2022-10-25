@@ -38,6 +38,8 @@ SELECT
     h.status in ('b','i')    
     AND i.item_status_code = '!'
     AND h.pickup_location_code Is not null
+    -- UPDATE FROM Shoutbomb on 10/25/2022: Can you update the SQL by removing the last portion of the where clause? This is a built in delay to allow staff time to prepare the hold shelf items.  You can put it back at some future time if folks decide they want more time before the notice is sent.
+	  -- AND NOW() - rmi.record_last_updated_gmt > interval '3' hour
 
   ORDER BY
     patron_no;
